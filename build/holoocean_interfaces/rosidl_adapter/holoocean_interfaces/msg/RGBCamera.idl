@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from holoocean_interfaces/msg/RGBCamera.msg
+// generated code does not contain a copyright notice
+
+
+module holoocean_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "RGBCamera message" "\n"
+      "Contains timestamp, image dimensions, and image data")
+    struct RGBCamera {
+      @verbatim (language="comment", text=
+        "Timestamp in nanoseconds")
+      int64 timestamp;
+
+      @verbatim (language="comment", text=
+        "Image width in pixels")
+      int32 width;
+
+      @verbatim (language="comment", text=
+        "Image height in pixels")
+      int32 height;
+
+      @verbatim (language="comment", text=
+        "Number of color channels")
+      int32 channels;
+
+      @verbatim (language="comment", text=
+        "Flattened image data as a 1D array" "\n"
+        "Should be a 3D array but ROS does not support")
+      sequence<int16> image;
+    };
+  };
+};

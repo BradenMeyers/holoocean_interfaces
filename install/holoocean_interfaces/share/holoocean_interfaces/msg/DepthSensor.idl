@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from holoocean_interfaces/msg/DepthSensor.msg
+// generated code does not contain a copyright notice
+
+
+module holoocean_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "DepthSensor message" "\n"
+      "Contains timestamp and depth measurement")
+    struct DepthSensor {
+      @verbatim (language="comment", text=
+        "Timestamp in nanoseconds")
+      int64 timestamp;
+
+      @verbatim (language="comment", text=
+        "Depth measurement in meters")
+      float depth;
+    };
+  };
+};

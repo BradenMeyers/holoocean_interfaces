@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from holoocean_interfaces/msg/IMUSensor.msg
+// generated code does not contain a copyright notice
+
+
+module holoocean_interfaces {
+  module msg {
+    typedef float float__3[3];
+    @verbatim (language="comment", text=
+      "IMUSensor message" "\n"
+      "Contains timestamp, acceleration, angular velocity, and their biases")
+    struct IMUSensor {
+      @verbatim (language="comment", text=
+        "Timestamp in nanoseconds")
+      int64 timestamp;
+
+      @verbatim (language="comment", text=
+        "Acceleration measurements in meters per second squared")
+      float__3 acceleration;
+
+      @verbatim (language="comment", text=
+        "Angular velocity measurements in radians per second")
+      float__3 angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Acceleration bias in meters per second squared")
+      float__3 acceleration_bias;
+
+      @verbatim (language="comment", text=
+        "Angular velocity bias in radians per second")
+      float__3 angular_velocity_bias;
+    };
+  };
+};

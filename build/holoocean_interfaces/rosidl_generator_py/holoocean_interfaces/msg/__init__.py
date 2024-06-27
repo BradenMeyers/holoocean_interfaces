@@ -1,0 +1,13 @@
+from holoocean_interfaces.msg._acoustic_beacon_sensor import AcousticBeaconSensor  # noqa: F401
+from holoocean_interfaces.msg._depth_sensor import DepthSensor  # noqa: F401
+from holoocean_interfaces.msg._dvl_sensor import DVLSensor  # noqa: F401
+from holoocean_interfaces.msg._gps_sensor import GPSSensor  # noqa: F401
+from holoocean_interfaces.msg._imaging_sonar import ImagingSonar  # noqa: F401
+from holoocean_interfaces.msg._imu_sensor import IMUSensor  # noqa: F401
+from holoocean_interfaces.msg._location_sensor import LocationSensor  # noqa: F401
+from holoocean_interfaces.msg._orientation_sensor import OrientationSensor  # noqa: F401
+from holoocean_interfaces.msg._pose_sensor import PoseSensor  # noqa: F401
+from holoocean_interfaces.msg._range_finder_sensor import RangeFinderSensor  # noqa: F401
+from holoocean_interfaces.msg._rgb_camera import RGBCamera  # noqa: F401
+from holoocean_interfaces.msg._rotation_sensor import RotationSensor  # noqa: F401
+from holoocean_interfaces.msg._velocity_sensor import VelocitySensor  # noqa: F401

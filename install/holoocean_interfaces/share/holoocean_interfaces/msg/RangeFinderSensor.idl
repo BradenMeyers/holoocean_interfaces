@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from holoocean_interfaces/msg/RangeFinderSensor.msg
+// generated code does not contain a copyright notice
+
+
+module holoocean_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "RangeFinderSensor message" "\n"
+      "Contains timestamp, count of distances and angles, and their measurements")
+    struct RangeFinderSensor {
+      @verbatim (language="comment", text=
+        "Timestamp in nanoseconds")
+      int64 timestamp;
+
+      @verbatim (language="comment", text=
+        "Number of distance measurements")
+      int32 count;
+
+      @verbatim (language="comment", text=
+        "Distance measurements in meters")
+      sequence<float> distances;
+
+      @verbatim (language="comment", text=
+        "Angle measurements in radians")
+      sequence<float> angles;
+    };
+  };
+};
